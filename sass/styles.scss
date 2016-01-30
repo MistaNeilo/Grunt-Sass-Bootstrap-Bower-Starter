@@ -1,0 +1,26 @@
+/*!
+Theme Name: NK Starter Pack
+Theme URI: http://neilkearney.net/
+Author: Neil Kearney
+Author URI: http://neilkearney.net/
+Description: WordPress theme (using Grunt & Bower & Bootstrap)
+Version: 1.0.0
+*/
+
+// Bootstrap imports
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Font Awesome icons
+@import "../bower_components/font-awesome/less/font-awesome.less";
+@fa-font-path: "fonts"; // Font Awesome font directory override
+
+// Google fonts
+//@import url(https://fonts.googleapis.com/css?family=Roboto:300,500|Open+Sans:700);
+
+// Your theme files
+//@import "_global.less";
+//@import "_header.less";
+//@import "_content.less";
+//@import "_sidebar.less";
+//@import "_footer.less";
